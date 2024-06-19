@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Sitio Web</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f0f0; color: #333; margin: 0; padding: 0; }
+        header, footer { background: #202020; color: #fff; padding: 10px 20px; text-align: center; }
+        header img { max-height: 100px; }
+        nav { text-align: center; margin-top: 10px; }
+        nav a { margin: 0 15px; color: #202020; text-decoration: none; }
+        .content { display: flex; justify-content: space-around; padding: 20px; }
+        .content div { width: 30%; background: #fff; padding: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        footer p { margin: 0; padding: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo_url_aqui" alt="Tu Logo">
+    </header>
+    <nav>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#fotografia">Fotografía</a>
+    </nav>
+    <div class="content" id="proyectos">
+        <div>Proyecto 1</div>
+        <div>Proyecto 2</div>
+        <div>Proyecto 3</div>
+    </div>
+    <div id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Información sobre ti.</p>
+    </div>
+    <div id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div id="fotografia">
+        <h2>Fotografía</h2>
+        <!-- Insertar galería de imágenes o contenido relacionado aquí -->
+    </div>
+    <footer>
+        <p>Sígueme en redes sociales</p>
+        <!-- Enlaces a redes sociales aquí -->
+    </footer>
+</body>
+</html>
